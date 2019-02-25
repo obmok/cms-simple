@@ -1,0 +1,42 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,hgroup, div{
+  display: block;
+}
+
+body {
+  width: 100%;
+}
+
+h1{
+  margin: 20px;
+}
+
+table {
+  margin: 20px; 
+}
+
+td{
+  text-align: left;
+}
+
+.entityForm{
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  align-content: flex-start;
+}
+
+.control{
+  width: 80px;
+
+}
+
+.inputError {
+  outline-color: red;
+}
