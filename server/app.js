@@ -1,5 +1,4 @@
 const Koa = require('koa');
-const config = require('config');
 const mongoose = require('./libs/mongoose');
 const User = require('./models/User');
 const Router = require('koa-router');

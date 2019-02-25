@@ -5,6 +5,7 @@ module.exports = {
   secret: 'mysecret',
   root: process.cwd(),
   templatesRoot: path.join(process.cwd(), 'templates'),
+  useNewUrlParser: true,
   mongodb: {
     debug: true,
     uri: 'mongodb://localhost/cms'
